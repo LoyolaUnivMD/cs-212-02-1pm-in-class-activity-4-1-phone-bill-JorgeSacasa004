@@ -1,1 +1,27 @@
-THINK before you code...
+1. Ask user for which subscription package they have and make it into lowercases."Which subscription package do you have?" 
+2. Ask the user how many gigabytes of data they used and transform it into float. "How many gigabytes of data did you used this month?"
+3. If package is green or package is blue:
+  a. discount equals to 0
+  b. extra cost equals to 0
+  c. extra gigabytes equal to 0
+  d. if package is green:
+    I. set base price to 49.99
+    II. if gygabytes is more than 2: 
+      1. set extra cost to 15
+      2. Set extra gigabytes to gigabytes used - 2
+    III. Ask the user if they have a coupon "Do you have a coupon?"
+    IV. if answer.lower() equals to yes:
+        1. discount equals to 20
+  e. if package is blue:
+    I. set base price to 70
+    II. if gygabytes is more than 4: 
+      1. set extra cost to 10
+      2. Set extra gigabytes to gigabytes used - 4
+  f. cost equals to base price + (extra cost * extra gigabytes)
+  g. if cost is greater than 75
+    I. cost equals to cost - discount
+  h. output "Ok, you used (extra gigabytes) extra gigabytes and your total price for this month is (price) dollars"
+4. else if package equals to purple:
+  a.   output "Ok, your total price for this month is 99.95 dollars"
+5. Otherwise:
+  a. output "Sorry, that is not a valid package"
