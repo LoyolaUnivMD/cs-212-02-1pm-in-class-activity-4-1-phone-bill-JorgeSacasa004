@@ -1,1 +1,15 @@
-Test cases go here. 
+Testcase #1
+Input: Green, 5gb
+Output: 3 extra Gb and $94.99 
+Testcase #2
+Input: purple, 10gb
+Output: no extra Gb and $99.95
+Testcase #3
+Input: blue, 5gb
+Output: 1 extra Gb and $80
+Testcase #4
+Input: Green, 1gb
+Output: 0 extra Gb and $49.99 
+Testcase #5
+Input: blue, 4gb
+Output: 0 extra Gb and $70 
